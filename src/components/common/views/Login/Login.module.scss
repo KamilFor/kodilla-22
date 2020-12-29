@@ -1,5 +1,26 @@
-@import '../../../styles/settings.scss';
+@import '../../../../styles/settings.scss';
 
 .component {
   padding: $base-size;
 }
+
+.root {
+    min-width:  275px;
+    text-align: center;
+  }
+  
+.bullet {
+    display: inline-block;
+    margin: 0 2px;
+  }
+  
+  .title {
+    font-size: 14px;
+  }
+  
+  .pos {
+    margin-bottom: 12px;
+  }
+  .button {
+      margin: auto;
+  }
